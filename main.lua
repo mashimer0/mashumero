@@ -172,7 +172,7 @@ local function createBloodMoon()
     stars.Parent = starContainer
     print("🌕 ブラッドムーンエフェクト適用")
 end
-task.spawn(createBloodMoon)
+
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
