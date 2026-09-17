@@ -3642,13 +3642,7 @@ TriggerTab:AddToggle({
 -- ==========================================
 -- 初期化
 -- ==========================================
-OrionLib:Init()
 
-OrionLib:MakeNotification({
-    Name = "起動完了！",
-    Content = "ましゅめろキック（両手対応）\n👾 ましゅめろ（旧れもにーHUB）全機能同時起動",
-    Time = 3
-})
 -- ==========================================
 -- ラグドールタブ（Orion版）
 -- ==========================================
@@ -4136,4 +4130,15 @@ toggleRef = RagdollGroup:AddToggle("LoopBananaRagdollOrion", {
             stopLoop()
         end
     end
+})
+
+-- ==========================================
+-- 初期化
+-- ==========================================
+OrionLib:Init()
+
+OrionLib:MakeNotification({
+    Name = "起動完了！",
+    Content = "ましゅめろキック（両手対応）",
+    Time = 3
 })
