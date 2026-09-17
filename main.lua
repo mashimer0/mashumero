@@ -3648,7 +3648,7 @@ OrionLib:MakeNotification({
     Name = "起動完了！",
     Content = "ましゅめろキック（両手対応）\n👾 ましゅめろ（旧れもにーHUB）全機能同時起動",
     Time = 3
-})local Players = game:GetService("Players")
+local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local CoreGui = game:GetService("CoreGui")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
